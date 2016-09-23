@@ -1,0 +1,8 @@
+#!/bin/bash
+date
+date>/tmp/summary.log
+cut -d: -f1 /etc/passwd
+cut -d: -f1 /etc/passwd>>/tmp/sumarry.log
+uptime
+uptime>>/tmp/summary.log
+
