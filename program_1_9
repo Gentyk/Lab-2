@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Жрут всех больше VSZ:"
+ps -uax|head -n 1
+ps -uax|sort -rn -k5,5|head -n 5
+
