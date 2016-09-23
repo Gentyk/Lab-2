@@ -1,0 +1,5 @@
+#!/bin/bash
+echo -n "Процессов пользователя ill:"
+ps -u ill|wc -l
+echo -n "Процессов пользователя root:"
+ps -u root|wc -l
