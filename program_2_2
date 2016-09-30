@@ -1,0 +1,4 @@
+#!/bin/bash
+bash program_2_1
+less /tmp/run.log
+
