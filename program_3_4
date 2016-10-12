@@ -1,0 +1,14 @@
+#!/bin/bash
+a=$1
+cd $a
+echo "каталоги:"
+ls -l|grep ^d
+echo "обычные файлы:"
+ls -l|grep ^-
+echo "символьные ссылки:"
+ls -l|grep ^l
+echo "символьные устройства:"
+ls -l|grep ^c
+echo "блочные устройства:"
+ls -l|grep ^b
+
