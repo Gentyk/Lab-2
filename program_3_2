@@ -1,0 +1,4 @@
+#!/bin/bash
+./program_3_1 $*
+./program_3_1 $@
+
